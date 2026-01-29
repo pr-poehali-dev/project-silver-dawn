@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Особенности
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что делает нас уникальными</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Собственные стихи",
+              description: "Каждая композиция рождается из оригинальных текстов с уникальной смысловой нагрузкой",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Искусственный интеллект",
+              description: "Передовые ИИ-технологии трансформируют стихи в законченные музыкальные произведения",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "24/7 вещание",
+              description: "Непрерывное интернет-радио с постоянно обновляющимся контентом",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Разные жанры",
+              description: "От электроники до экспериментальной музыки — каждый найдет свое",
               direction: "bottom",
             },
           ].map((service, i) => (
